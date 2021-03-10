@@ -3,6 +3,7 @@ ITVRACH is the application about POS(Point of Sale) based on native java program
 this application contains about information of price list, transaction, shipping, payment etc. 
 
 
+# Screenshoot
 
 ## [x] SplashScreen
 
@@ -50,7 +51,7 @@ this application contains about information of price list, transaction, shipping
 
 <img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_Payment.png" width="400" height="600">
 
-
+# Created By
 This Application Created By Bedson Gultom.
 
 
