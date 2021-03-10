@@ -4,51 +4,51 @@ this application contains about information of price list, transaction, shipping
 
 
 
-[x] SplashScreen
+## [x] SplashScreen
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_splashscreen.png)
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_splashscreen.png" width="400" height="600">
 
-[x] Login-Screen
+## [x] Login-Screen
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_loginscreen.png)
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_loginscreen.png" width="400" height="600">
 
-[x] Login
+## [x] Login
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_login.png)
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_login.png" width="400" height="600">
 
-[x] Forgot Email
+## [x] Forgot Email
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_forgot_email.png)
-
-
-[x] Registration
-
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_registration.png)
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_forgot_email.png" width="400" height="600">
 
 
-[x] MainMenu
+## [x] Registration
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_mainmenu.png)
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_registration.png" width="400" height="600">
 
-[x] Product
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_product.png)
+## [x] MainMenu
 
-[x] Detail Product
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_mainmenu.png" width="400" height="600">
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_DetailProduct.png)
+## [x] Product
 
-[x] Transaction
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_product.png" width="400" height="600">
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Transaction.png)
+## [x] Detail Product
 
-[x] Approve
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_DetailProduct.png" width="400" height="600">
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Approve.png)
+## [x] Transaction
 
-[x] Payment
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Transaction.png" width="400" height="600">
 
-(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_Payment.png)
+## [x] Approve
+
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Approve.png" width="400" height="600">
+
+## [x] Payment
+
+<img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_Payment.png" width="400" height="600">
 
 
 This Application Created By Bedson Gultom.
