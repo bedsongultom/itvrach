@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ITVrach</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="type">Type</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="failed">Failed</string>
+    <string name="success">Success</string>
+    <string name="welcome">Welcome</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="close">close</string>
+    <string name="submit_text">I have read and agree with the above</string>
+    <string name="terms_text">terms and codition</string>
+    <string name="open">open</string>
+
+    <string-array name="relegions_list">
+        <item>Select Religions </item>
+        <item>Islam</item>
+        <item>Katolik</item>
+        <item>Protestan</item>
+        <item>Budha</item>
+        <item>Hindu</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inbox_title">Inbox</string>
+    <string name="approve_title">Approved</string>
+    <string name="cart_title">Cart</string>
+    <string name="payment_title">Payment</string>
+    <string name="shipping_title">Shipping</string>
+    <string name="message_title">MESSAGE</string>
+    <string name="confirmed_title">CONFIRMED</string>
+    <string name="piechart_title">Chart</string>
+    <string name="reports_title">Reports</string>
+    <string name="stock">Stock</string>
+    <string name="selling">Selling</string>
+    <string name="buying">Buying</string>
+    <string name="income">Income</string>
+    <string name="php">Php</string>
+    <string name="android">Android</string>
+    <string name="javascript">Javascript</string>
+
+</resources>

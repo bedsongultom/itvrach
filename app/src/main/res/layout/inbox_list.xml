@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    card_view:cardCornerRadius="0dp"
+    android:id="@+id/mCard"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txtNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_circle"
+                android:gravity="center_vertical"
+                android:hint="No"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txtSessionId"
+                android:layout_width="206dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:hint="Session Id"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:visibility="gone"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtTransactionId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:gravity="center_vertical"
+                android:hint="Trans ID"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+
+
+            <TextView
+                android:id="@+id/txtTransactionDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:paddingStart="5dp"
+                android:paddingEnd="10dp"
+                android:gravity="right|center_vertical"
+                android:textAlignment="inherit"
+                android:hint="TransactionDate"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:id="@+id/btn_Confirmed"
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:text="Confirm"
+                android:textSize="11sp"
+                android:background="@drawable/btn_round_edge"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:ems="10"
+                android:layout_marginEnd="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:foregroundGravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+
+        &lt;!&ndash;<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvConfirmation"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:textColor="#F39C12"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textAlignment="gravity"
+
+                android:textSize="12sp"/>
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/chk_Confirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:buttonTint="@color/colorPrimaryDark"
+            />&ndash;&gt;
+    </LinearLayout>
+
+-->
+</android.support.v7.widget.CardView>
+

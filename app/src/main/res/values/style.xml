@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+
+<style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light">
+    <item name="colorAccent">#48367d</item>
+    <item name="colorControlActivated">#48367d</item>
+    <item name="android:selectableItemBackgroundBorderless">@color/colorPrimaryDark</item>
+    <item name="colorControlHighlight">#f39c12</item>
+    </style>
+
+
+
+    <style name="DatePickerDialogTheme2" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#f39c12</item>
+        <item name="colorControlActivated">#f39c12</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/orange_color</item>
+        <item name="colorControlHighlight">#f39c12</item>
+    </style>
+
+
+
+
+
+    <style name="TimePickerDialogTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#48367d</item>
+        <item name="colorControlActivated">#48367d</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">#f39c12</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#48367d</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AppCompatAlertDialogTransparentStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#48367d</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+
+</resources>

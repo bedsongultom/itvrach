@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme"
+            android:id="@+id/appBarLayout">
+
+        <!-- our toolbar -->
+
+            <android.support.v7.widget.Toolbar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:titleTextColor="#ffffff"
+                android:paddingLeft="0dp"
+                app:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                android:contentInsetStartWithNavigation="0dp"
+
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+
+        <!--    <EditText
+                android:id="@+id/edSearch"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10.68"
+                android:background="@drawable/edittext_border"
+                android:drawableLeft="@drawable/ic_search_mini"
+                android:hint=" Search..."
+
+                android:paddingLeft="6dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="6dp"
+
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="14sp"
+                android:textCursorDrawable="@drawable/color_cursor" />
+-->
+
+
+           <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imgFile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#d9d9db"
+                    android:scaleType="centerCrop"/>
+               </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="0dp">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtsession_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextUser_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="10dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textIsSelectable="true"
+                android:maxLines="1" />
+
+        </LinearLayout>
+</android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lltab1"
+    android:visibility="gone">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_alignParentBottom="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabBackground="@drawable/tab_color_selector"
+            app:tabIndicatorColor="@color/tab_backgroud_selected"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/tab_text_unselected"
+            app:tabSelectedTextColor="#F39C12"/>
+
+        <com.itvrach.www.itvrach.SwipeDisabledViewPager
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/pager1"/>
+
+</LinearLayout>
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame_tab2"
+            android:visibility="gone">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabBackground="@drawable/tab_color_selector"
+            app:tabIndicatorColor="@color/tab_backgroud_selected"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/tab_text_unselected"
+            app:tabSelectedTextColor="#F39C12"/>
+
+
+        <com.itvrach.www.itvrach.SwipeDisabledViewPager
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/pager2"/>
+
+</FrameLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/shippingLinearLayout"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabShippingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/white"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/tab_text_unselected"
+                app:tabSelectedTextColor="#F39C12"/>
+
+            <com.itvrach.www.itvrach.SwipeDisabledViewPager
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pager3"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/inboxLinearLayout"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabInboxLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/tab_backgroud_selected"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/tab_text_unselected"
+                app:tabSelectedTextColor="#F39C12"/>
+
+            <com.itvrach.www.itvrach.SwipeDisabledViewPager
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pager4"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/approvedLinearLayout"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabApprovedLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/tab_backgroud_selected"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/tab_text_unselected"
+                app:tabSelectedTextColor="#F39C12"/>
+
+            <com.itvrach.www.itvrach.SwipeDisabledViewPager
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pager5"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/chartLinearLayout"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabChartLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/tab_backgroud_selected"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/tab_text_unselected"
+                app:tabSelectedTextColor="#F39C12"/>
+
+            <com.itvrach.www.itvrach.SwipeDisabledViewPager
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pagerChart"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/reportsLinearLayout"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabReportsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/tab_backgroud_selected"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/tab_text_unselected"
+                app:tabSelectedTextColor="#F39C12"/>
+
+            <com.itvrach.www.itvrach.SwipeDisabledViewPager
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pagerReports"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <!-- our tablayout to display tabs  -->
+        <!-- <android.support.design.widget.TabLayout
+             android:id="@+id/tabLayout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="?attr/colorPrimary"
+             android:minHeight="?attr/actionBarSize"
+             android:layout_alignParentBottom="true"
+             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>-->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomNavigationView"/>
+
+
+
+        <!--  &lt;!&ndash; View pager to swipe views &ndash;&gt;
+          <android.support.v4.view.ViewPager
+              android:id="@+id/pager"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"/>-->
+
+    </LinearLayout>
+
+    <include layout="@layout/footer">
+
+    </include>
+
+
+    <LinearLayout
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#48367d"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_disconnected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Server Disconnected !"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/leftside_navigation"
+        android:layout_gravity="start"
+android:visibility="gone"
+        android:fitsSystemWindows="true">
+
+
+    </android.support.design.widget.NavigationView>
+
+
+</FrameLayout>
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

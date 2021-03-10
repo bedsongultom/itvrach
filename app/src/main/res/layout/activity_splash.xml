@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+    android:visibility="visible"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.itvrach.www.itvrach.SplashActivity">
+
+    <TextView
+        android:id="@+id/tvsolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="250dp"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:text="text"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvcopyright"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:text="text"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:background="@drawable/ic_find3"/>
+
+        <ImageButton
+            android:id="@+id/btnProducts"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_product"/>
+
+        <ImageButton
+            android:id="@+id/btnCustomers"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_customers"/>
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_settings"/>
+
+
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/simpleTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+
+        <!-- first row of the table layout-->
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="18dip"
+                android:text="No"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/simpleTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="18dip"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="12dp" />
+            <TextView
+
+                android:id="@+id/simpleTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="18dip"
+                android:text="Price"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="18dip"
+                android:text="Qty"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="5dp"
+            android:text="TOTAL "
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="20dp"
+            android:text="0 "
+            android:textAlignment="textEnd"
+            android:textSize="16dp"
+            android:layout_weight="0.80"
+            android:textStyle="bold"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
