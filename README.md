@@ -1,6 +1,6 @@
 # itvrach
 ITVRACH is the application about POS(Point of Sale) based on native java programming which could to install on android smart-phone.
-this application contains information about price list, transaction, shipping, payment etc. 
+this application contains about information of price list, transaction, shipping, payment etc. 
 
 
 
@@ -16,6 +16,16 @@ this application contains information about price list, transaction, shipping, p
 
 (https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_login.png)
 
+[x] Forgot Email
+
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_forgot_email.png)
+
+
+[x] Registration
+
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_registration.png)
+
+
 [x] MainMenu
 
 (https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_mainmenu.png)
@@ -24,20 +34,23 @@ this application contains information about price list, transaction, shipping, p
 
 (https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_product.png)
 
-[x] Gallery
+[x] Detail Product
 
-https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/IMG_20201103_114634_061.jpg
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_DetailProduct.png)
 
-https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/IMG_20201103_114609_389.jpg
+[x] Transaction
 
-[x] Video
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Transaction.png)
 
-https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/IMG_20201103_114654_571.jpg
+[x] Approve
 
-[x] News Update
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/itvrach_Approve.png)
 
-https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/News%20Update.png https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/News%20Update2.png https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/News%20Update3.png
+[x] Payment
 
-[x] About Developer
+(https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_Payment.png)
 
-https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/IMG_20201103_114814_361.jpg
+
+This Application Created By Bedson Gultom.
+
+
