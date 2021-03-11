@@ -1,5 +1,5 @@
 # itvrach
-ITVRACH is the application about POS(Point of Sale) based on native java programming which could to install on android smart-phone.
+ITVRACH is an application about POS(Point of Sale) based on native java programming which could to install on android smart-phone.
 this application contains about information of price list, transaction, shipping, payment etc. 
 
 
