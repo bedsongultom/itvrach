@@ -4,7 +4,7 @@ this application contains about information of price list, transaction, shipping
 
 
 # Screenshoot
-
+The below images are some layout of itvrach application.
 ## [x] SplashScreen
 
 <img src="https://github.com/bedsongultom/wisatariau/blob/master/app/src/main/res/drawable/Itvrach_splashscreen.png" width="400" height="600">
